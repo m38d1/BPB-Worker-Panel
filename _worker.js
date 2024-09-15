@@ -1116,18 +1116,18 @@ function generateRemark(index, port, protocol, fragType) {
     switch (index) {
         case 0:
         case 1:
-            remark = `⭐ ${protocol}${type} ${index + 1}`;
+            remark = `⭐ MehdiAskari VPN`;
             break;
         case 2:
         case 3:
-            remark = `⭐ ${protocol}${type} ${index - 1} `;
+            remark = `⭐ MehdiAskari VPN`;
             break;
         case 4:
         case 5:
-            remark = `⭐ ${protocol}${type} ${index - 3}`;
+            remark = `⭐ MehdiAskari VPN`;
             break;
         default:
-            remark = `⭐ ${protocol}${type} ${index - 5}`;
+            remark = `⭐ MehdiAskari VPN`;
             break;
     }
 
