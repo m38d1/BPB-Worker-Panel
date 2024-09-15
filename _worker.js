@@ -1116,18 +1116,18 @@ function generateRemark(index, port, protocol, fragType) {
     switch (index) {
         case 0:
         case 1:
-            remark = `⭐ ${protocol}${type} - Domain ${index + 1} : ${port}`;
+            remark = `⭐ ${protocol}${type} ${index + 1}`;
             break;
         case 2:
         case 3:
-            remark = `⭐ ${protocol}${type} - IPv4 ${index - 1} : ${port}`;
+            remark = `⭐ ${protocol}${type} ${index - 1} `;
             break;
         case 4:
         case 5:
-            remark = `⭐ ${protocol}${type} - IPv6 ${index - 3} : ${port}`;
+            remark = `⭐ ${protocol}${type} ${index - 3}`;
             break;
         default:
-            remark = `⭐ ${protocol}${type} - Clean IP ${index - 5} : ${port}`;
+            remark = `⭐ ${protocol}${type} ${index - 5}`;
             break;
     }
 
