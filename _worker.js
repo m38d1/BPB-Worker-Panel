@@ -1256,7 +1256,7 @@ async function resolveDNS (domain) {
         throw new Error(`An error occurred while resolving DNS - ${error}`);
     }
 }
-
+ 
 function generateJWTToken (password, secretKey) {
     const header = {
         alg: 'HS256',
